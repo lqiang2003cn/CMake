@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # set the project name
-project(Tutorial VERSION 1.3.9)
+project(Tutorial VERSION 1.3.10)
 
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
