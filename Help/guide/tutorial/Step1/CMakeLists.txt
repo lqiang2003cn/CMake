@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Tutorial VERSION 1.3.10)
 
 # set
-set(USE_MYMATH ON)
+set(USE_MYMATH OFF)
 
 # configurations
 configure_file(TutorialConfig.h.in TutorialConfig.h)
