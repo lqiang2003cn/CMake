@@ -20,7 +20,7 @@ double mysqrt(double x)
     }
     double delta = x - (result * result);
     result = result + 0.5 * delta / result;
-    std::cout << "Computing sqrt of " << x << " to be333 the" << result << std::endl;
+    std::cout << "Computing sqrt of " << x << " to be3338 the" << result << std::endl;
   }
   return result;
 }
