@@ -11,14 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # add the executable
 add_executable(Tutorial1 tutorial.cxx)
+target_include_directories(Tutorial1 PUBLIC "${PROJECT_BINARY_DIR}")
 
-
-target_include_directories(
-    Tutorial1
-    PUBLIC
-    "${PROJECT_BINARY_DIR}"
-)
-
+add_subdirectory(MathFunctions)
+# target_link_libraries(Tutorial1 PUBLIC MathFunctions)
 
 # TODO 1: Set the minimum required version of CMake to be 3.10
 
